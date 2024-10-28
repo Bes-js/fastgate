@@ -1,0 +1,66 @@
+{
+  "name": "fastgate",
+  "version": "5.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "description": "A simple and effective promise-based HTTP request library that supports all HTTP methods.",
+  "exports": {
+    ".": {
+      "types": {
+        "require": "./dist/index.d.ts",
+        "default": "./dist/index.d.mts"
+      },
+      "default": {
+        "require": "./dist/index.js",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsup"
+  },
+  "keywords": [
+    "proxy",
+    "proxy-agent",
+    "http",
+    "https",
+    "elite",
+    "anonymous",
+    "transparent",
+    "connect",
+    "socks",
+    "socks4",
+    "socks5",
+    "http-proxy",
+    "https-proxy",
+    "socks-proxy",
+    "socks4-proxy",
+    "socks5-proxy",
+    "nyro"
+  ],
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "homepage": "https://github.com/Bes-js/fastgate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bes-js/fastgate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bes-js/fastgate/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Bes-js"
+  },
+  "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0"
+  },
+  "dependencies": {
+    "nyro": "^1.0.0"
+  }
+}
