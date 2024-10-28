@@ -3,7 +3,7 @@
   "version": "5.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "description": "A simple and effective promise-based HTTP request library that supports all HTTP methods.",
+  "description": "Fastgate provides free, secure, and easy-to-integrate proxy services for developers.",
   "exports": {
     ".": {
       "types": {
